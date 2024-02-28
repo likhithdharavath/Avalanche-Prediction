@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESULT</title>
+    <style>
+        header {
+      background-image: url(photo.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+    .feature {
+      margin: 20px;
+      text-align: center;
+      flex: 1;
+      padding: 20px;
+      background-color:turquoise;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .output{
+        margin:20px;
+        padding: 30px;
+        width: fit-content center;
+        text-align: center;
+        background-color: antiquewhite;
+        text-decoration: solid;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Company Logo">
+        <h1>AVALANCHE PREDICTOR</h1>
+        <p>WE ARE HERE TO CHECK YOUR SAFTEY!</p>
+      </header>
+      <div class="container">
+        <div class="feature">
+            <h2>HERE IS YOUR PREDICTION</h2>
+        </div>
+      </div>
+      <div class="output">
+        <h3>OUTPUT:{{ msg }}</h3>
+        
+      </div>
+</body>
+</html>
